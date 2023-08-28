@@ -216,6 +216,7 @@ input[type="file"] {
   max-width: 100%;
   height: auto;
   margin-left: 20px;
+  padding-bottom: 56.25%; 
 
 }
 
