@@ -1,12 +1,16 @@
+/*CSS FILE FOR ALL SALMON AMOEBIC GILL DISEASE TRACKER FILES*/
 
+/* background colour */
 body {
   background-color: #f5f7f8;
 }
 
+/* heading 2 text colour */
 h2 {
   color:#4f7394 ;
 }
 
+/* alligning the text to the centre of the webpage */
 section {
   text-align: center;
 }
@@ -38,11 +42,13 @@ header {
   align-items: center;
 }
 
+/* web title link */
 .link {
-  text-decoration: none; /* Remove underlines from links */
-  color: inherit; /* Inherit the color from the parent */
+  text-decoration: none; /* Removes the underlines from links */
+  color: inherit; 
 }
 
+/*Styling for heading 1 text*/
 h1 {
   margin: 0;
   color: #4f7394;
@@ -212,20 +218,14 @@ input[type="file"] {
   text-align: left;
 }
 
-.map {
-  max-width: 100%;
-  height: auto;
-  margin-left: 20px;
-  padding-bottom: 56.25%; 
-
-}
-
 
 /* styling for the map image */
 .map {
   border-radius: 6px;
   max-width: 80%;
   height: auto;
+  margin-left: 20px;
+  padding-bottom: 56.25%; 
   background-size: cover;
   background-image: url(../img/temporalMaps.png.png);
 }
